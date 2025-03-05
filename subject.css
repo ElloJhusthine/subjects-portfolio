@@ -1,0 +1,151 @@
+﻿/* General styling */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #fce4ec; /* Light pink background */
+}
+
+/* Navigation Bar */
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #8e44ad; /* Violet */
+    padding: 15px 30px;
+    color: white;
+}
+
+nav .logo {
+    font-size: 20px;
+    font-weight: bold;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+    gap: 20px;
+}
+
+nav ul li {
+    display: inline;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+    transition: 0.3s;
+}
+
+nav ul li a:hover {
+    color: #f8c8dc; /* Light pink */
+}
+
+/* Header */
+header {
+    text-align: center;
+    padding: 50px;
+    background-color: #d291bc; /* Soft pink-violet */
+    color: white;
+}
+
+/* Activities Section */
+.activities {
+    text-align: center;
+    padding: 50px;
+}
+
+.activities h2 {
+    color: #6a0572; /* Deep violet */
+}
+
+.activity-links {
+    display: flex;
+    justify-content: center;
+    gap: 15px;
+}
+
+/* Buttons */
+.btn {
+    text-decoration: none;
+    padding: 12px 20px;
+    background-color: #8e44ad; /* Violet */
+    color: white;
+    border-radius: 8px;
+    font-weight: bold;
+    transition: 0.3s;
+}
+
+.btn:hover {
+    background-color: #d291bc; /* Soft pink-violet */
+    color: #6a0572;
+}
+
+/* Footer */
+footer {
+    text-align: center;
+    padding: 15px;
+    background-color: #8e44ad;
+    color: white;
+    font-weight: bold;
+}
+
+/* ---------- Subjects Taken Page Styling ---------- */
+
+/* Header */
+h1 {
+    text-align: center;
+    color: #6a0572; /* Deep violet */
+}
+
+/* Search Bar */
+input[type="text"] {
+    display: block;
+    width: 50%;
+    margin: 10px auto;
+    padding: 10px;
+    border: 2px solid #8e44ad; /* Violet */
+    border-radius: 8px;
+    font-size: 16px;
+}
+
+/* Subjects List */
+ul {
+    list-style: none;
+    padding: 0;
+    text-align: center;
+}
+
+.subject {
+    padding: 10px;
+    margin: 5px auto;
+    width: 60%;
+    background-color: #d291bc; /* Soft pink-violet */
+    color: white;
+    border-radius: 8px;
+    font-weight: bold;
+    transition: 0.3s;
+}
+
+.subject:hover {
+    background-color: #8e44ad; /* Violet */
+}
+
+/* Back Button */
+button {
+    display: block;
+    margin: 20px auto;
+    padding: 12px 20px;
+    background-color: #8e44ad;
+    color: white;
+    border: none;
+    border-radius: 8px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+button:hover {
+    background-color: #d291bc;
+}
