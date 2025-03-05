@@ -1,5 +1,5 @@
 ﻿document.addEventListener("DOMContentLoaded", function () {
-    fetch('courses.json')
+    fetch('https://raw.githubusercontent.com/ElloJhusthine/subjects-portfolio/refs/heads/main/courses.json')
         .then(response => response.json())
         .then(data => displaySubjects(data))
         .catch(error => console.error('Error loading subjects:', error));
