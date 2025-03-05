@@ -1,0 +1,19 @@
+﻿[
+    {
+        "year": "1st Year",
+        "semester": "1st Semester",
+        "subjects": [
+            { "code": "IT111", "title": "Introduction to Computing", "credit": 3 },
+            { "code": "IT112", "title": "Computer Programming 1", "credit": 3 },
+            { "code": "PurCom", "title": "Purposive Communication", "credit": 3 }
+        ]
+    },
+    {
+        "year": "1st Year",
+        "semester": "2nd Semester",
+        "subjects": [
+            { "code": "IT121", "title": "Computer Programming 2", "credit": 3 },
+            { "code": "IT122", "title": "Data Structures and Algorithms", "credit": 3 }
+        ]
+    }
+]
